@@ -26,8 +26,8 @@ apt install git nodejs npm
 # Clone and setup
 git clone https://github.com/Bimobudimantoro/Tea-Auto-Deploy-Contract.git
 cd Tea-Auto-Deploy-Contract
-chmod +x token-factory-bot.sh
-./token-factory-bot.sh
+chmod +x run.sh
+./run.sh
 ```
 
 ### Windows WSL Users
@@ -42,8 +42,8 @@ sudo apt install git nodejs npm
 # Clone and setup
 git clone https://github.com/Bimobudimantoro/Tea-Auto-Deploy-Contract.git
 cd Tea-Auto-Deploy-Contract
-chmod +x token-factory-bot.sh
-./token-factory-bot.sh
+chmod +x run.sh
+./run.sh
 ```
 
 ### Termux Users
@@ -56,15 +56,15 @@ termux-setup-storage
 # Clone and setup
 git clone https://github.com/Bimobudimantoro/Tea-Auto-Deploy-Contract.git
 cd Tea-Auto-Deploy-Contract
-chmod +x token-factory-bot.sh
-./token-factory-bot.sh
+chmod +x run.sh
+./run.sh
 ```
 
 ## Usage Instructions
 
 1. Run the script:
 ```bash
-./token-factory-bot.sh
+./run.sh
 ```
 
 2. Enter your private key(s) when prompted
